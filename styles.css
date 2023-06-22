@@ -1,0 +1,129 @@
+
+  
+  body {
+    font-family:"Gill Sans", sans-serif;
+    background: linear-gradient(135deg, #dfdada, #1b1b1b);
+    /* color: dodgerblue; */
+  }
+
+  .my-profil{
+    text-align: center;
+    text-shadow:rgba(59, 62, 211, 0.3)  ;
+  }
+  .container {
+    height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+
+  .connexion{
+    width: 400px;
+    background-color: rgba(248, 245, 245, 0.6);
+    border-radius: 10px;
+    padding: 2rem;
+    box-shadow: 0 0 20px rgba(59, 62, 211, 0.3);
+  }
+  
+  #login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  #login-form label {
+    color:dodgerblue;
+  }
+  
+  #login-form input {
+    font-size: 1rem;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    outline: none;
+  }
+  
+  #login-form input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+  } 
+  
+  #login-form button {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #d4d3d4;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #login-form button:hover {
+    background-color:dodgerblue;
+  }
+  
+  #error-message {
+    color: #e74c3c;
+    font-size: 0.9rem;
+    margin-top: 1rem;
+  }
+
+  .containerinfos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+    padding: 2rem;
+  }
+  
+  label {
+    font-size: 1.1rem;
+    color: #ffffff;
+     margin-bottom: 0.5rem; 
+  }
+  
+  input {
+    font-size: 1rem;
+    padding: 0.5rem;
+    margin-bottom: 1.5rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff;
+    transition: background-color 0.3s ease;
+  }
+  
+  input:focus {
+    outline: none;
+    background-color: #e0e0e0;
+  }
+  
+  button {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 5px;
+    background-color: dodgerblue;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: dodgerblue;
+  }
+
+
+
+.chart-container {
+    position: relative;
+    max-width: 800px;
+    margin: 60px auto;
+    background-color: #141414;
+    
+  }
